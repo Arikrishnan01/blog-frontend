@@ -1,0 +1,75 @@
+.userLoginContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
+}
+.userForm{
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid gray; */
+    -webkit-box-shadow: 0px 0px 15px -10px #000000; 
+    box-shadow: 0px 0px 15px -10px #000000;
+}
+.newUserTitle{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.userItem{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.userItem>label
+{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 150, 150);
+}
+.userItem>input{
+    height: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.userButton{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.userMoveSignup{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    background-color:inherit;
+}
+.accountSpan{
+    font-size: small;
+    margin-right: 5px;
+}
+.userSignup{
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: blue;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
